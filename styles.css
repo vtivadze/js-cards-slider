@@ -24,6 +24,8 @@ body {
 .slide {
   position: relative;
 
+  flex-grow: 1;
+
   width: 5%;
   padding: 20px;
   border-radius: 20px;
@@ -42,7 +44,7 @@ body {
 }
 
 .slide.active {
-  flex-grow: 1;
+  flex-grow: 30;
 
   cursor:auto;
 }
